@@ -8,6 +8,9 @@ Links
 
 Digital Ocean VMs
 ------------------
+username: rchain
+password: ask in class
+
 68.183.223.112
 68.183.67.255
 68.183.223.53
