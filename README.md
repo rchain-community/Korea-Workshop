@@ -24,7 +24,10 @@ https://joshorndorff.github.io/BitStory
 https://cryptofex.io/download
 
 ### Joshy's GitHub
-https://github.com/joshorndorff
+* rchain-api: https://github.com/rchain-community/rchain-api
+* nth-caller-game: https://github.com/JoshOrndorff/nth-caller-game
+* Learn Rholang By Example: https://github.com/JoshOrndorff/LearnRholangByExample
+* librho: https://github.com/JoshOrndorff/librho
 
 ### K Framework
 http://kframework.org/tool/run/
@@ -48,24 +51,28 @@ username: rchain
 
 password: ask in class
 
-68.183.223.112
 
-68.183.67.255
-
-68.183.223.53
-
-68.183.223.116
-
-68.183.223.119
-
-68.183.223.109
-
-68.183.208.117
-
-142.93.98.234
-
-68.183.223.99
-
-68.183.71.73
-
-104.248.142.153
+| IP Address | Student |
+| --- | --- |
+| 68.183.223.112 | Chungjae Shin |
+| 68.183.67.255 | liwei |
+| 68.183.223.53 | munhuimin |
+| 68.183.223.116 | kang min Choi |
+| 68.183.223.119 | GiTae Kwon |
+| 68.183.223.109 | Younghye Lee |
+| 68.183.208.117 | Hugh Choi |
+| 142.93.98.234 | Seokjun Hwang |
+| 68.183.223.99 | Byunghyun Lee |
+| 68.183.71.73 | Wooyoung HAn |
+| 68.183.212.142 | Jinman Kim |
+| 68.183.208.77 | Jaewon Lee |
+| 104.248.17.140 | Jay Park |
+| 68.183.218.81 | Kim inki |
+| 68.183.218.82 | |
+| 68.183.218.80 | |
+| 68.183.218.158 | |
+| 68.183.218.52 | |
+| 68.183.210.190 | |
+| 68.183.218.56 |  |
+| --- | --- |
+| 104.248.142.153 | rchain1 |
