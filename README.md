@@ -29,8 +29,9 @@ https://cryptofex.io/download
 * Learn Rholang By Example: https://github.com/JoshOrndorff/LearnRholangByExample
 * librho: https://github.com/JoshOrndorff/librho
 
-### Download Putty (for windows users)
-* https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+### Tools for remote servers
+* Putty (windows only) https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+* Filezilla https://filezilla-project.org/download.php
 
 ### K Framework
 http://kframework.org/tool/run/
