@@ -1,0 +1,12 @@
+new xCh, yCh, zCh
+  stdout(`rho:io:stdout`) in {
+    xCh!(true) |
+    yCh!(false) |
+    //This is called "join"
+    for(x <- xCh ; y <- yCh ){
+      zCh!(*x and *y)
+    } | 
+    for(z <- zCh ; x <- xCh){
+      stdout!(*x and *z)
+    }
+  }
