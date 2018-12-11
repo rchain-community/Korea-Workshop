@@ -1,0 +1,10 @@
+new doublingInt, stdout(`rho:io:stdout`) in {
+    contract doublingInt(n) = {
+        // 입력받은 수에 2를 곱합니다
+        stdout!(*n * 2)
+    }
+    |
+    doublingInt!(2)
+    |
+    doublingInt!(4)
+}

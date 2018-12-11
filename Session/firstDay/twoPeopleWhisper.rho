@@ -1,0 +1,7 @@
+new superpooower, stdout(`rho:io:stdout`) in {
+	superpooower!("Lunch!!!") | 
+  for( secretMessage <- superpooower ){
+  	stdout!("I receive the message:") |
+    stdout!(*secretMessage)
+  }
+}
