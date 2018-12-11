@@ -1,5 +1,8 @@
 About
 ======
+
+NEW: [phase two](phaseTwo.md)
+
 Materials and resources for the RChain Korea Workshoip 10-14 December 2018
 
 Students may add resources here. Including [translations](translations.md).
@@ -54,6 +57,12 @@ Rholang Cheatsheet
 
 Digital Ocean VMs
 ------------------
+To install nodejs:
+```bash
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt install nodejs
+```
+
 username: rchain
 
 password: ask in class
@@ -76,10 +85,10 @@ password: ask in class
 | 104.248.17.140 | Jay Park |
 | 68.183.218.81 | Kim inki |
 | 68.183.218.82 | David Song |
-| 68.183.218.80 | |
-| 68.183.218.158 | |
-| 68.183.218.52 | |
-| 68.183.210.190 | |
-| 68.183.218.56 |  |
+| 68.183.218.80 | Keonwoo Park |
+| 68.183.218.158 | Youngsook Park |
+| 68.183.218.52 | Pyeon ho seong |
+| 68.183.210.190 | Jaewoo Park |
+| 68.183.218.56 | Seungdo Lee |
 | --- | --- |
 | 104.248.142.153 | rchain1 |
