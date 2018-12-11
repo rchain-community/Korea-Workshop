@@ -47,6 +47,7 @@ Rchain은 자바를 기반으로 돌아가서 [자바를 다운로드 해야합�
 $ ~/설치/경로로/찾아갑시다/rnode-0.7.1/bin/rnode run -s
 ```
 
+
 `Rholang`이 설치를 위해 자신의 컴퓨터에 `java`를 설치합니다  
 설치되어 있는 사람은 이 부분은 넘어가도 됩니다  
 
@@ -55,6 +56,11 @@ $ ~/설치/경로로/찾아갑시다/rnode-0.7.1/bin/rnode run -s
 [java 다운로드 링크](https://www.java.com/ko/download/)   
 
 ![RNode 설치 화면](img/rnodeInstallationTerminal.png)  
+
+![RNode 구동 화면](img/rnodeRunningTerminal.png)  
+
+위의 그림이 나오면 RNode 서버가 켜진 상황입니다.
+설치하시느라 고생 많으셨습니다
 
 
 생각보다 오래걸리니 기다립시다  
@@ -116,12 +122,28 @@ new superpooower, whisperpooower, poooower,
 ### 이삭의 수학 수업은 정리 중입니다
 Issac's mathmatics class is coming soon
 
+## 블록체인은 어떤거고 얼마나 도움되나요?
+
+![blockChainQuestion](img/blockChainQuestion.jpg)
+![blockChainIngredientProperty](img/blockChainIngredientProperty.jpg)
+
+## `RNode` 직접 만지기
+
+내 터미널에서 `RNode` 서버로 들어가자
+```bash
+$ ssh rchain@내IP
+ex) ssh rchain@68.183.223.116
+```
 
 
+백그라운드에서 실행된 `RNode`를 종료하는 방법
+```
+$ sudo systemctl stop rnode
+```
 
 
-
-
+## 수업한 코드를 정리하고 있습니다
+내일 수업 전까지 올리겠스빈다
 
 
 

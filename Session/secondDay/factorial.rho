@@ -1,0 +1,15 @@
+new myFactorial, factorial, stdout(`rho:io:stdout`) in {
+  contract factorial(@number, return) = {
+    // Final Case, 끝나는 경우
+    if (number == 1) {
+      stdout!("Factorial finish")|
+      return!(1)
+    }
+    // Recursive Case
+    else{
+      stdout!("X" ++ number) |
+      factorial!(number -1,)
+    } 
+  } | 
+  factorial!(5)
+}

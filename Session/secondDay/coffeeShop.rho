@@ -1,0 +1,11 @@
+// 결과값이 1개만 나오는게 정상인 코드입니다
+new coffeeShop, stdout(`rho:io:stdout`) in {
+    
+    for (order <- coffeeShop){
+        stdout!("Coffee Order Received" ++ *order)
+    }
+    |
+    coffeeShop!("one hot chocolate")
+    | //아래의 코드는 Data와 Continuation이 만나 사라집니다
+    coffeeShop!("two large cappuccinos please")
+}

@@ -1,0 +1,17 @@
+new myRandomNumber, randomNumber, stdout(`rho:io:stdout`) in {
+  contract randomNumber(answerChan) = {
+      new samples in {
+        samples!(1) |
+        samples!(2) |
+        samples!(3) |
+        for (answer <- samples){
+          answerChan!(*answer)
+        }
+      }
+  } |
+  randomNumber!(*myRandomNumber) |
+
+  for(finalAnswer <- myRandomNumber){
+    stdout!(*finalAnswer)
+  }
+}

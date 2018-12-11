@@ -1,0 +1,17 @@
+new countdown, stdout(`rho:io:stdout`) in {
+  //Uses recursion 재귀함수 사용 + Start, Finish 변수 
+  contract countdown(@start,@finish) = {
+    // Final Case, 끝나는 경우
+    if (start == finish) {
+      stdout!("blastoff")
+    }
+    // Recursive Case
+    else{
+      stdout!(start) |
+      countdown!(start -1,finish)
+    }
+  } |
+
+  // Test case here
+  countdown!(20,15)
+}

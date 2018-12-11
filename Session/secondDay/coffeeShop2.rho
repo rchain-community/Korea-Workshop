@@ -1,0 +1,13 @@
+new coffeeShop, stdout(`rho:io:stdout`) in {
+    // coffeeShop1.rho에선 for를 사용했지만 이제 contract를 사용합니다
+    // 여기 order를 사용하면
+    contract coffeeShop(order) = {
+        // 여기선 *order를 사용합니다
+        // 자세한 사항이 궁금하면 C언어나 Java의 pointer를 검색하세요
+        stdout!("Coffee Order Received" ++ *order)
+    }
+    |
+    coffeeShop!("one hot chocolate")
+    |
+    coffeeShop!("two large cappuccinos please")
+}
