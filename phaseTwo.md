@@ -149,6 +149,6 @@ Find resources for blockchain in Korea and add to GitHub.
 
 31. Curate list of Korean blockchain organizations that RChain should start interacting with (3 points)
 
-31. Find the Casper Mistake
+32. Find the Casper Mistake (1 point)
 There is a mistake in this casper game. Can you find it?
 ![Picture of casper game with mistake](casper1.png)
