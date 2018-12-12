@@ -1,18 +1,18 @@
 Breakout Session Ideas (propose your own too)
 ============================
-Rholang Fundamentals revisited
-RChain’s CBC Casper Consensus Protocol (co-developed by Vlad Zamfir of Ethereum)
-Casper Friendly Ghost
-How to launch a secure RChain network
-Formal semantics of Rholang
-Current state of RChain Platform Development
-How RChain tokens and purses are more scalable than ethereum
-Rholang and Byzantine fault tolerance
-English Korean technical vocab exchange
-Specific topics in Rholang
-Modern Cryptography (Stream Ciphers, Block ciphers, MACs, hashes)
-Casper friendly finality gadget
-Object Capabilities
+* Rholang Fundamentals revisited
+* RChain’s CBC Casper Consensus Protocol (co-developed by Vlad Zamfir of Ethereum)
+* Casper Friendly Ghost
+* How to launch a secure RChain network
+* Formal semantics of Rholang
+* Current state of RChain Platform Development
+* How RChain tokens and purses are more scalable than ethereum
+* Rholang and Byzantine fault tolerance
+* English Korean technical vocab exchange
+* Specific topics in Rholang
+* Modern Cryptography (Stream Ciphers, Block ciphers, MACs, hashes)
+* Casper friendly finality gadget
+* Object Capabilities
 
 Points to Earn
 ================
