@@ -19,7 +19,7 @@ Points to Earn
 ### Any ​[AOC](https://adventofcode.com/) problem in Rholang (5 points each)
 Solve any problem from the Advent of code in rholang. You don't need to read the input files, you can  just put the small example input in your code
 
-### Make a playable Casper game like bitstory (4 cpoints)
+### Make a playable Casper game like bitstory (4 points)
 Bitstory is a fun interactive way to learn Proof of Work. We don't yet have such a game for casper. Describe and demonstrate such a game.
 
 ### Separate nth-caller game to two webpages
