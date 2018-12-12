@@ -155,8 +155,14 @@ There is a mistake in this casper game. Can you find it?
 
 ![Picture of casper game with mistake](casper1.png)
 
-** 33. Find the Equivocation in this Casper Game **
+**33. Find the Equivocation in this Casper Game (1 point)**
+
 ![Picture of casper game with equivocation](casper2.png)
+
+**34. Propose final project ideas (1 point each)**
+
+During phase three, groups will work on final projects. Propose some ideas for points.
+
 
 # Breakout 세션 아이디어들(직접 제안합니다!)
 
