@@ -1,4 +1,4 @@
-Breakout Session Ideas (propose your own too)
+# Breakout Session Ideas (propose your own too)
 ============================
 * Rholang Fundamentals revisited
 * RChain’s CBC Casper Consensus Protocol (co-developed by Vlad Zamfir of Ethereum)
@@ -14,7 +14,7 @@ Breakout Session Ideas (propose your own too)
 * Casper friendly finality gadget
 * Object Capabilities
 
-Points to Earn
+# Points to Earn
 ================
 1. Any [AOC](https://adventofcode.com/) problem in Rholang (5 points each)
 Solve any problem from the Advent of Code in Rholang. You don't need to read the input files, you can  just put the small example input in your code.
@@ -28,7 +28,7 @@ One page for people who want to host games. Another page for people who want to 
 4. Solve all exercises any lesson in rholang tutorial (3 points each lesson)
 Each lesson contains several programming exercises. Complete all the exercises in a single lesson for 3 points each.
 
-5. Translate any Rholang tutorial lesson (3 points each lesson)
+5. Translate any [Learn Rholang By Example](https://github.com/JoshOrndorff/LearnRholangByExample) lesson (3 points each lesson)
 Upload the result to GitHub.
 
 6. Rholang GCD (3 points)
