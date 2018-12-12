@@ -22,7 +22,7 @@ Solve any problem from the Advent of code in rholang. You don't need to read the
 ### Make a playable Casper game like bitstory (4 cpoints)
 Bitstory is a fun interactive way to learn Proof of Work. We don't yet have such a game for casper. Describe and demonstrate such a game.
 
-### Seperate nth-caller game to two webpages
+### Separate nth-caller game to two webpages
 One page for people who want to host games. Another page for people who want to play games.
 
 ### Solve all exercises any lesson in rholang tutorial (3 points each lesson)
@@ -31,8 +31,26 @@ Each lesson contains several programming exercises. Complete all the exercises i
 ### Translate any rholang tutorial lesson (3 points each lesson)
 Upload the result to github
 
-### Rholang GCD
+### Rholang GCD (3 points)
 Write a program that can compute the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two integers
+
+### Rholang sumList (2 points)
+write a rholang contract that adds all of the integers in a list. For example
+
+```
+sumList!([1, 2, 3, 4, 5], *answer) // gives 15
+```
+
+### Rholang Factorial (2 points)
+Write a rholang contract that takes an integer and computes the factorial of that integer. For example factorial!(3) = 6
+
+### Rholang countDownFromTo (2 points)
+Write a rholang contract that takes in a start and end number and prints all the number in between. For example
+
+```
+countDownFromTo!(6, 3) // 6, 5, 4, 3
+```
+
 
 ### Rholang isPrime (2 points)
 Write a rholang contract that takes in an integer and tells whether it is prime
