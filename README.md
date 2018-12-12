@@ -1,19 +1,25 @@
 About
 ======
-Materials and resources for the RChain Korea Workshoip 10-14 December 2018
+
+NEW: [phase two](phaseTwo.md)
+
+
+Materials and resources for the RChain Korea Workshop 10-14 December 2018
 
 Students may add resources here. Including [translations](translations.md).
 
 Links
 -------------------
 ### Bitcoin Whitepaper
+- 비트코인 백서
 English: https://bitcoin.com/bitcoin.pdf
 
 Korean: https://github.com/wbnns/bitcoinwhitepaper/blob/master/Korean/bitcoin_ko.pdf
 
-### RChain Cloud
+### RChain Cloud .
+- 온라인 Rchain 컴파일러입니다. 여러명이 사용하면 컴파일 결과가 다른게 나오는 경우가 있습니다.
 
-https://rchain.cloud/
+https://rchain.cloud/ .
 
 https://rchaincloud.inblock.io/
 
@@ -21,6 +27,7 @@ https://rchaincloud.inblock.io/
 https://joshorndorff.github.io/BitStory
 
 ### Cryptofex IDE
+- 로컬에서 Rholang 컴파일을 해주는 프로그램입니다.
 https://cryptofex.io/download
 
 ### Joshy's GitHub
@@ -30,8 +37,9 @@ https://cryptofex.io/download
 * librho: https://github.com/JoshOrndorff/librho
 
 ### Tools for remote servers
-* Putty (windows only) https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-* Filezilla https://filezilla-project.org/download.php
+- 리모트 서버 접속을 위한 툴 링크입니다.
+* Putty (SSH Client, windows only) https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+* Filezilla(FTP Client) https://filezilla-project.org/download.php
 
 ### K Framework
 http://kframework.org/tool/run/
@@ -41,6 +49,7 @@ https://github.com/kframework/k/tree/master/k-distribution
 http://www.kframework.org/index.php/Main_Page
 
 ### Windows 10 Linux Subsystem install instructions
+- Windows 10 환경에서 WSL을 활용해 리눅스 서브시스템을 만드는 방법입니다.
 (Right-click on start menu to open power user menu -> Windows PowerShell (admin))
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 https://docs.microsoft.com/en-us/windows/wsl/initialize-distro
@@ -49,11 +58,19 @@ https://docs.microsoft.com/en-us/windows/wsl/initialize-distro
 https://github.com/rchain/rchain/releases
 
 Rholang Cheatsheet
+- Rholang 의 명령어를 간단히 정리해놓은 이미지입니다.
 ------------------
 ![Rholang Cheatsheet](RholangCheatSheet.png)
 
-Digital Ocean VMs
+Digital Ocean VMs  
+- Cryptofex 나 Rnode 가 로컬 PC에서 작동되지 않는 분들을 위한 서버입니다.
 ------------------
+To install nodejs:
+```bash
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt install nodejs
+```
+
 username: rchain
 
 password: ask in class
@@ -76,10 +93,10 @@ password: ask in class
 | 104.248.17.140 | Jay Park |
 | 68.183.218.81 | Kim inki |
 | 68.183.218.82 | David Song |
-| 68.183.218.80 | |
-| 68.183.218.158 | |
-| 68.183.218.52 | |
-| 68.183.210.190 | |
-| 68.183.218.56 |  |
+| 68.183.218.80 | Keonwoo Park |
+| 68.183.218.158 | Youngsook Park |
+| 68.183.218.52 | Pyeon ho seong |
+| 68.183.210.190 | Jaewoo Park |
+| 68.183.218.56 | Seungdo Lee |
 | --- | --- |
 | 104.248.142.153 | rchain1 |

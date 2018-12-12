@@ -1,0 +1,7 @@
+new stdout(`rho:io:stdout`), double in {
+  contract double(@num, return) = {
+    return!(num * 2)
+  } |
+
+  double!(4, *stdout)
+}
