@@ -58,7 +58,7 @@ https://docs.microsoft.com/en-us/windows/wsl/initialize-distro
 [RNode installer](https://developer.rchain.coop/)  
 Rnode is based on java, so you need to [download java](https://www.java.com/ko/download/mac_download.jsp)  
 
-[installed RNode](https://developer.rchain.coop/)goto that directory 
+[installed RNode](https://developer.rchain.coop/) goto that directory 
 
 ```
 $ ~/goto/install/location/rnode-0.7.1/bin/rnode run -s
