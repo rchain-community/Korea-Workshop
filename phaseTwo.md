@@ -153,6 +153,7 @@ Find resources for blockchain in Korea and add to GitHub.
 
 There is a mistake in this casper game. Can you find it?
 
-  1. ![Picture of casper game with mistake](casper1.png)
-  
-  2. 
+![Picture of casper game with mistake](casper1.png)
+
+** 33. Find the Equivocation in this Casper Game **
+![Picture of casper game with equivocation](casper2.png)
