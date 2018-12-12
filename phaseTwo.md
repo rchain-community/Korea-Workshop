@@ -115,3 +115,7 @@ RChain community is spread out all over the world and we keep in touch through d
 There is also the [public rchain discord]() but no points for joining that one.
 
 28. Translate this document (2 points)
+
+29. Find the casper mistake (1 point)
+This casper game has a mistake. Can you find it?
+![casper1.png](casper1.png)
