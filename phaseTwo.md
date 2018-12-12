@@ -147,4 +147,6 @@ There is also the [public rchain discord]() but no points for joining that one.
 
 Find resources for blockchain in Korea and add to GitHub.
 
-31. 
+31. Find the Casper Mistake
+There is a mistake in this casper game. Can you find it?
+![Picture of casper game with mistake](casper1.png)
