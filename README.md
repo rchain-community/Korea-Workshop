@@ -3,7 +3,6 @@ About
 
 NEW: [phase two](phaseTwo.md)
 
-
 Materials and resources for the RChain Korea Workshop 10-14 December 2018
 
 Students may add resources here. Including [translations](translations.md).
@@ -16,10 +15,10 @@ English: https://bitcoin.com/bitcoin.pdf
 
 Korean: https://github.com/wbnns/bitcoinwhitepaper/blob/master/Korean/bitcoin_ko.pdf
 
-### RChain Cloud .
+### RChain.cloud
 - 온라인 Rchain 컴파일러입니다. 여러명이 사용하면 컴파일 결과가 다른게 나오는 경우가 있습니다.
 
-https://rchain.cloud/ .
+https://rchain.cloud/
 
 https://rchaincloud.inblock.io/
 
