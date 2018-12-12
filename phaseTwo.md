@@ -59,6 +59,14 @@ Write a Rholang contract that takes in a start and end number and prints all the
 countDownFromTo!(6, 3) // 6, 5, 4, 3
 ```
 
+**10. Rholang remainder (2 points)**
+
+Write a Rholang contract which takes two integers and gives back the remainder of the first divided by the second. For example
+
+```
+remainder!(7, 3, *answer) // gives 1
+```
+
 **10. Rholang isPrime (2 points)**
 
 Write a Rholang contract that takes in an integer and tells whether it is prime.
