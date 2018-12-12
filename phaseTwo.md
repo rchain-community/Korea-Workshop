@@ -139,13 +139,15 @@ RChain community is spread out all over the world and we keep in touch through d
 
 There is also the [public rchain discord]() but no points for joining that one.
 
-28. Translate this document (2 points)
+28. Translate this document (3 points)
 
 29. Write a Rholang tutorial lesson (3 points)
 
-30. Korean language resources of value to general blockchain (2 points)
+30. Korean language resources of value to general blockchain (3 points)
 
 Find resources for blockchain in Korea and add to GitHub.
+
+31. Curate list of Korean blockchain organizations that RChain should start interacting with (3 points)
 
 31. Find the Casper Mistake
 There is a mistake in this casper game. Can you find it?
