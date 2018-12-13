@@ -1,11 +1,18 @@
 About
 ======
 
-NEW: [phase two](phaseTwo.md)
-
 Materials and resources for the RChain Korea Workshop 10-14 December 2018
 
 Students may add resources here. Including [translations](translations.md).
+
+Phase Two
+----------
+We will form teams and compete for points. [Point descriptions](phaseTwo.md)
+
+Phase Three
+------------
+We will join new teams to complete a final project. [Guiding Questions](phaseThree.md)
+
 
 Links
 -------------------
@@ -54,11 +61,11 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 https://docs.microsoft.com/en-us/windows/wsl/initialize-distro
 
 ### install Rnode
-##### only can use on [Mac OS, Linux] 
+##### only can use on [Mac OS, Linux]
 [RNode installer](https://developer.rchain.coop/)  
 Rnode is based on java, so you need to [download java](https://www.java.com/ko/download/mac_download.jsp)  
 
-[installed RNode](https://developer.rchain.coop/) goto that directory 
+[installed RNode](https://developer.rchain.coop/) goto that directory
 
 ```
 $ ~/goto/install/location/rnode-0.7.1/bin/rnode run -s
@@ -71,7 +78,7 @@ you can use $PATH.
 you need to install 'java' to install 'rnode'
 if you have, u don't need to install java  
 
-rnode Supports `java 8`, `java 10`, `java 11` 
+rnode Supports `java 8`, `java 10`, `java 11`
 
 ### RChain GitHub releases
 https://github.com/rchain/rchain/releases
