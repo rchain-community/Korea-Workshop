@@ -41,6 +41,7 @@ https://cryptofex.io/download
 * nth-caller-game: https://github.com/JoshOrndorff/nth-caller-game
 * Learn Rholang By Example: https://github.com/JoshOrndorff/LearnRholangByExample
 * librho: https://github.com/JoshOrndorff/librho
+* freshr: https://github.com/joshorndorff/freshr , https://www.npmjs.com/package/freshr
 
 ### Tools for remote servers
 - 리모트 서버 접속을 위한 툴 링크입니다.
