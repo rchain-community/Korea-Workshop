@@ -165,6 +165,7 @@ $ ssh rchain@내IP
 ```bash
 $ ssh rchain@68.183.223.116
 ```
+비밀번호는 rnode
 
 
 백그라운드에서 실행된 `RNode`를 종료하는 방법
@@ -339,13 +340,67 @@ new myFactorial, factorial, stdout(`rho:io:stdout`) in {
 
 
 
+# Dapp 만들기
 
+[조쉬의 nth-caller-game 깃헙](https://github.com/JoshOrndorff/nth-caller-game)
 
+[npm을 통해 freshr 다운로드](https://www.npmjs.com/package/freshr)
+```
+$ npm install --global freshr
+```
+위의 명령어가 안되면 `sudo`를 사용합니다
+```
+$ sudo npm install --global freshr
+```
 
+환경변수 추가
+```
+$ export PATH=$PATH:~/Downloads/rnode-0.7.1/bin/
+```
 
+이제 로컬에서도 아래의 명령어가 작동한다
+```
+$ rnode run -s
+```
+#### Start a fresh RNode with casper
+이제 Dapp 돌려봅니다
+```
+$ freshr
+```
 
+적당한 디렉토리에 nth-caller-game 다운로드 합시다
 
+```
+$ git clone https://github.com/JoshOrndorff/nth-caller-game.git
+```
 
+`nth-caller-game` 폴더로 들어갑니다
+```
+$ cd nth-caller-game
+```
+
+필요한 라이브러리 다운
+```
+$ sudo npm install --global
+```
+
+npm으로 contract를 deploy합니다 
+```
+$ npm run deploy-contract
+```
+
+Dapp을 시작합니다
+로컬 사용자의 경우 [http://localhost:8080](http://localhost:8080) 링크에서 확인 가능합니다
+ssh 사용자의 경우 자신의 ip:8080링크로 들어가면 됩니다  
+ex) [68.183.218.81:8080](68.183.218.81:8080)  
+
+```
+$ npm start
+```
+
+```
+$
+```
 
 
 
