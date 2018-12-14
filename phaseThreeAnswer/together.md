@@ -57,7 +57,7 @@ Friday Morning Answer
 
 ### `MVP`입니다
 
-```rholang
+```java
 new donate, //후원금
     request,//요청 금액
     distribute,//중간자
