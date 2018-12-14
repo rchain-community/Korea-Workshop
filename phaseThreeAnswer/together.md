@@ -113,7 +113,7 @@ new donate, //후원금
 }
 ```
 
-```s
+```javascript
 pragma solidity ^0.4.24;
 contract Charity{
     address owner;
