@@ -55,7 +55,7 @@ Friday Morning Answer
 > About 5 miniutes
 
 
-### `MVP`입니다
+### 덜 만든 `MVP`
 
 ```java
 new donate, //후원금
