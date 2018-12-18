@@ -5,6 +5,8 @@ Materials and resources for the RChain Korea Workshop 10-14 December 2018
 
 Students may add resources here. Including [translations](translations.md).
 
+A compilation of lessons [Documents](Session/README.md)
+
 Phase Two
 ----------
 We will form teams and compete for points. [Point descriptions](phaseTwo.md)
