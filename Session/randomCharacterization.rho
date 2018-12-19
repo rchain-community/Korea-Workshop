@@ -1,0 +1,48 @@
+new randomNumber,
+    repeatN,
+    resultAggregator,
+    stdout(`rho:io:stdout`)
+in {
+  contract randomNumber(answerChan) = {
+      new samples in {
+        samples!(1) |
+        samples!(2) |
+        samples!(3) |
+        for (@answer <- samples){
+          //stdout!("The just-chosen random is ${ans}" %% {"ans": answer}) |
+          answerChan!(answer)
+        }
+      }
+  } |
+
+  contract repeatN(action, resultCh, @n, ack) = {
+    if (n == 0) {
+      ack!(Nil)
+    }
+    else {
+      action!(*resultCh) |
+      repeatN!(*action, *resultCh, n - 1, *ack)
+    }
+  } |
+
+  // Main program
+  new resultsCh, ack in {
+
+    contract resultAggregator(@latestResult) = {
+      //stdout!("result being aggregated in ${res}" %% {"res": latestResult}) |
+      for (@results <- resultsCh){
+        resultsCh!(results.set(latestResult, results.getOrElse(latestResult, 0) + 1))
+      }
+    } |
+
+    // Start with an empty map
+    resultsCh!({}) |
+
+    // Generate a bunch of random values
+    repeatN!(*randomNumber, *resultAggregator, 200, *ack) |
+    for (_ <- ack; @results <- resultsCh) {
+      stdout!("The final results are") |
+      stdout!(results)
+    }
+  }
+}
